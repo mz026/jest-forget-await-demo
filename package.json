@@ -1,0 +1,21 @@
+{
+  "name": "jest-forget-await-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.spec.js",
+  "dependencies": {
+    "jest": "^24.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest hello.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/setup.js"
+    ],
+    "testEnvironment": "node"
+  }
+}
